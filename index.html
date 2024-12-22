@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shadow</title>
+  
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <style>
+    /* Styling for the body */
+    body {
+      font-family: 'Bebas Neue', sans-serif;
+      height: 100vh;
+      display: flex;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      overflow: hidden; /* To prevent any scrollbars from appearing */
+      position: relative;
+    }
+
+    /* Container for the background image with blur effect */
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 122%;
+      height: 121.5%;
+      background-color: black;
+      z-index: 0; /* Keep it behind the content */
+    }
+
+    /* Container for the content */
+    .content {
+      z-index: 2; /* Content appears above the background */
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Background image with blur -->
+  <div class="background"></div>
+
+  <!-- Content Section -->
+  <div class="content">
+    <h1>Sung Jinwoo</h1>
+    <p>Sung Jinwoo is the main character of the popular Korean webtoon Solo Leveling. He starts as the weakest Es-Rank hunter,but his journey to becoming  the all-powerful Shadow Monarch captivates fans worldwide.</p>
+    
+  </div>
+  
+  <style>
+    
+    h1 {
+      font-size: 120px;
+      margin-top: 55px;
+      margin-left: 60px;
+      text-align: left;
+      color: white;
+      letter-spacing: 25px;
+      line-height: 1.5;
+      transform: scaleY(0.8);
+      text-shadow: 0px 0px 10px white;
+      text-shadow: 0px 0px 20px white;
+      text-shadow: 0px 0px 40px white;
+      text-shadow: 0px 0px 80px white;
+      font-weight: bold;
+      z-index: 2;
+      
+}
+   
+    p {
+      color: cyan;
+      font-size: 50px;
+      margin-left: 100px;
+      text-shadow: 0px 0px 10px cyan;
+      text-shadow: 0px 0px 20px cyan;
+      text-shadow: 0px 0px 40px cyan;
+      text-shadow: 0px 0px 80px cyan;
+      text-shadow: 0px 0px 80px white;
+    }
+
+  </style>
+  
+  <p></p>
+  
+  <div style="position: relative; height: 400px;">
+  <img src="jinwooo.jpg" alt="Wallpaper" style="width: 440px; height: 700px; position: absolute; top: 400px; right: 700px;">
+</div>
+ 
+   
+</body>
+</html>
+
+
+
